@@ -1,0 +1,47 @@
+{
+    "name": "joelumarlin/productso",
+    "type": "library",
+    "description": "Products management package in Laravel 5.2 ",
+    "keywords": [
+        "joelumarlin",
+        "productso"
+    ],
+    "homepage": "https://github.com/joelumarlin/productso",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joelumarlin",
+            "email": "jlumarlin@gmail.com",
+            "homepage": "http://sitelaravel.app:8000/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "joelumarlin\\productso\\": "src",
+            "joelumarlin\\productso\\Http\\Controllers\\": "src/Http/Controllers/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "joelumarlin\\productso\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
