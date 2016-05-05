@@ -18,7 +18,8 @@
     ],
     "require": {
         "illuminate/support": "~5.1",
-        "php" : "~5.5|~7.0"
+        "php" : "~5.5|~7.0",
+        "kalnoy/nestedset": "^4.0"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*",
@@ -27,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "joelumarlin\\productso\\": "src",
+            "joelumarlin\\productso\\": "src/",
             "joelumarlin\\productso\\Http\\Controllers\\": "src/Http/Controllers/"
         }
     },
